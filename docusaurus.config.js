@@ -50,7 +50,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'NFBoost Backoffice',
+        //title: 'NFBoost Backoffice',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -58,9 +58,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'main',
+            docId: 'intro',
             position: 'left',
-            label: 'Manual',
+            label: 'Backoffice Manual',
           },
           {
             href: 'https://github.com/Brazil-Venture-Studio/nfboost-backoffice-manual',
